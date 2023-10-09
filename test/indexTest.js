@@ -13,7 +13,7 @@ describe("index", () => {
     });
   });
 
-  describe("returnsANamedFunction()", () => {
+  describe("", () => {
     var fn;
 
     before(() => {
@@ -24,7 +24,7 @@ describe("index", () => {
       expect(fn).to.be.a("function");
     });
 
-    it("returns a named function", () => {
+    it("returns a named functioreturnsANamedFunction()n", () => {
       expect(fn.name).not.to.eql("");
     });
   });
